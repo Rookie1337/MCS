@@ -1,0 +1,36 @@
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+img {
+    box-sizing: border-box;
+    width:900px; 
+    height:600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+p {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+ul {
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.reverse {
+    font-size: 40px;
+    color: #FFF;
+    background: #000000;
+    margin-top: 53px;
+    margin-bottom: 53px;
+}
+
+#pac {
+    font-size: 50px;
+    margin-top: 96px;
+}
