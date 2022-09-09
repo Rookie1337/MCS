@@ -8,9 +8,9 @@
   }
   .header {
     width: 100%;
-    height: 150px;
+    
     padding: 50px;
-    margin-bottom: 0px;
+    
     display: flex;
     justify-content: space-between;
     z-index: 2;
@@ -18,6 +18,8 @@
     color: #E50043;
     background: #FFFFFF;
     font-size: 50px;
+    top: 0px;
+    left: 0px;
     
     
   }
@@ -29,12 +31,12 @@
     margin-left: 25px;
   }
   .hero-block {
-    position: relative;
-    width: 1440px;
+    background-size: cover;
     height: 950px;
     left: 0px;
     top: 140px;
     background-image: url(images/evian_origins_logo.png);
+    margin-top: 150px;
   }
   .hero-name {
     position: absolute;
@@ -57,113 +59,44 @@
     box-sizing: border-box;
     font-size: 25px;
     width: 1040px;
-height: 280px;
-left: 201px;
-top: 1240px;
-    margin: 200px;
+    height: 320px;
+    margin: 200px auto;
     border: 3px solid #F8BFC7;
     border-radius: 20px;
     padding: 24px;
   }
-  .text-block-one {   /*Как его сдвинуть?*/
-    width: 1040px;
-    height: 280px;
-    left: 201px;
-    top: 1440px;
 
-  }
   p {
-    margin-top: 20px;
+    margin-top: 25px;
+   
   }
   .image-container {
     display: flex;
     justify-content: space-around;
-    margin-top: 0px;
+    align-items: center;
     position: relative;
-    margin-left: 100px ;
-    margin-right: 100px;
+     text-align: center;
     padding: 40px;
+    width: 1040px;
+    margin: 0 auto;
     
   }
-  .image-one {
-    width: 281px;
-height: 863px;
-left: 200px;
-top: 1670px;
 
-    background-image: url(images/wang.png) ;
-  }
-  .image-two {
-    background-image: url(images/blue.png);
-    width: 279px;
-height: 863px;
-left: 581px;
-top: 1670px;
-
-
-  }
-  .image-three {
-    background-image: url(images/chiara.png);
-    width: 280px;
-height: 863px;
-left: 960px;
-top: 1670px;
-
-
-  }
-  .description-container {
-    display: flex;
-    justify-content: space-around;
-    margin-left: 140px ;
-    margin-right: 100px;
-  }
-  .description-one {
-    width: 248px;
-    height: 58px;
-    left: 216px;
-    top: 2581px;
-  }
-  .description-two {
-    width: 249px;
-height: 58px;
-left: 601px;
-top: 2575px;
-  }
-  .description-three {
-    width: 237px;
-height: 58px;
-left: 987px;
-top: 2575px;
-  }
   .footer {
     width: 1440px;
 height: 140px;
-
 padding: 50px;
 color: #FFFFFF;
 font-size: 50px;
 background: #F8BFC7;
   }
   .block-one {
-    background-image: url(images/glass.png);
     background-repeat: no-repeat;
     margin: 20px;
-    width: 101px;
-height: 220px;
-left: 240px;
-top: 2850px;
-position: absolute;
-  }
-  .block-two {
-    position: absolute;
-    width: 749px;
-    height: 220px;
-    left: 440px;
-    top: 2850px;
+    float: left;
   }
   .text-block-two {
     display: flex;
-  
     flex-direction: row;
-    
   }
+  
