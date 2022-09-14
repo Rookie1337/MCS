@@ -47,7 +47,8 @@
         height: 300px;
      font-size: 50px;
      display: inline-block;
-     
+     text-align: center;
+     justify-content: center;
     }
 }
     .content {
@@ -55,11 +56,11 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    text-align: center;
     
     
     }
     p {
-        margin-top: 70px;
         line-height: 57px;
     }
     footer {
@@ -76,10 +77,11 @@
         width: 90%;
         align-items: center;
         text-align: center;
+        display: flex;
+        justify-content: center;
         
     }
     p {
-        margin-top: 40px;
         line-height: 27px;
     }
     .content {
