@@ -46,8 +46,8 @@
         width: 43%;
         height: 300px;
      font-size: 50px;
-     display: inline-block;
-     text-align: center;
+     display: flex;
+     align-items: center;
      justify-content: center;
     }
 }
