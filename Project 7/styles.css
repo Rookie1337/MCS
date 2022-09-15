@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: Helvetica;
+    font-size: 20px;
+  }
+p {
+    
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h2 {
+    margin: 20px;
+    font-size: 25px;
+}
+  .content {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    padding: 20px auto;
+    margin: 20px;
+    
+    
+  }
+ header {
+    background-color: black;
+    color: white;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+ }
+ footer {
+    background-color: black;
+    color: white; 
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+ }
+ .illustration {
+    
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    
+    
+ }
+ .item {
+    border: 5px solid black;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-bottom: 20px;
+    
+ }
+ /* Макет для мобильных */
+ @media only screen and (max-width: 400px) {
+ 
+  .item {
+    font-size: 6px;
+    border: 1px solid black;
+  }
+  header {
+    font-size: 6px;
+  }
+  p {
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+  h2 {
+    font-size: 8px;
+    margin: 8px;
+  }
+ }
+
+ /* Макет для планшетов */
+ @media only screen and (min-width: 401px) and (max-width: 960px) {
+    
+    .item {
+        font-size: 12px;
+        border: 3px solid black;
+    }
+    header {
+        font-size: 12px;
+    }
+    p {
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+    h2 {
+        font-size: 16px;
+        margin: 14px;
+    }
+ }
+
+ 
