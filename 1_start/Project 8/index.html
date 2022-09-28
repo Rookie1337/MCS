@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Проект 8</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">		
+  </head>
+  <body>
+    <header>
+        <img src="images/SS.jpeg" width="100%" id="ss"> 
+    </header>
+    <div class="illustration">
+        <img src="images/Hugo.jpeg" width="100%" class="hugo">
+    </div>
+    <div class="model-form-header">
+        
+        <h1>Станьте моделью Hugo Boss</h1>
+        <p>Только самые убийственные коллекции от знаменитого кутюрье. Достаточно заполнить форму ниже.</p>
+    </div>
+    <form action="" method="get" class="model-form">
+        <div class="form-row">
+            <label for="full-name">Имя</label>
+            <input id="full-name" name="full-name" type="text" 
+            placeholder="Hugo Boss"/>
+          </div>
+          <div class="form-row">
+            <label for="email">Почта</label>
+            <input id="email"
+              name="email"
+              type="email"
+              placeholder="hugo@boss.com"/>
+          </div>
+          <fieldset class="legacy-form-row">
+            <legend>Род войск</legend>
+            <input id="combat-arm-1"
+              name="combat-arm"
+              type="radio"
+              value="Wehrmacht" />
+            <label for="combat-arm-1" class="radio-label">Wehrmacht</label>
+            <input id="combat-arm-2"
+              name="combat-arm"
+              type="radio"
+              value="Waffen-SS"
+              checked />
+            <label for="combat-arm-2" class="radio-label">Waffen-SS</label>
+          </fieldset>
+          <div class="form-row">
+            <label for="category">Категория призыва</label>
+            <select id="category" name="category">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+             
+            </select>
+          </div>
+          
+          <div class="form-row">
+            <label class="checkbox-label" for="ready">
+            <input id="ready"
+              name="ready"
+              type="checkbox"
+              value="is-ready"/>
+            <span>Готов к мобилизации</span>
+            </label>
+          </div>
+         
+         
+          <div class="form-row">
+            <button>Отправить</button>
+          </div> 
+    </form>
+
+
+
+
+    <footer>
+        <div>,,A killer look''<br> GQ MAGAZINE</div>
+        <div>,,A style to die for''<br> VOGUE</div>
+        <div>,,SSexy''<br>PLAYBOY</div>
+        <div>,,Dapper murder''<br>ESQUIRE</div>
+    </footer>
+  </body>
+</html>
